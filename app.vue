@@ -1,17 +1,9 @@
 <template>
-    <nav>
-        <NuxtLink to="/">Home</NuxtLink>
-        <NuxtLink to="carros">Carros</NuxtLink>
-        <NuxtLink to="motos">Motos</NuxtLink>
-    </nav>
     <div>
-        <NuxtPage />
+        <NuxtLayout>
+            <NuxtPage />
+        </NuxtLayout>
     </div>
 </template>
 
-<style>
-nav {
-    display: flex;
-    gap: 1rem;
-}
-</style>
+
