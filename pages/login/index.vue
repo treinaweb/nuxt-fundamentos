@@ -6,7 +6,7 @@ definePageMeta({
 
 <template>
     <div>
-        <h1>Faça seu Login</h1>
+        <TitlePage text="Login" />
         <form>
             <div>
                 <label for="email">E-mail:</label>

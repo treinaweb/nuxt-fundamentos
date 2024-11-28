@@ -1,5 +1,5 @@
 <template>
     <div>
-        <h1>Essa é a nova página de Motos</h1>
+        <TitlePage text="Motos" />
     </div>
 </template>
