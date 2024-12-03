@@ -14,4 +14,12 @@ nav {
     display: flex;
     gap: 1rem;
 }
+
+a {
+    color: #216430;
+}
+
+.router-link-active {
+    color: #5cc975;
+}
 </style>
