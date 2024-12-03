@@ -14,11 +14,12 @@ const counter = useCounterStore();
     <div class="py-4">
         <p>Contagem atual: {{ counter.count }}</p>
 
+       
         <button
-            class="bg-blue-500 text-white rounded-lg py-1 px-2"
-            @click="counter.increment"
+            class="bg-red-500 text-white rounded-lg py-1 px-2 ms-2"
+            @click="counter.decrement"
         >
-            Adicionar 1
+            Remover 1
         </button>
     </div>
 </template>
