@@ -2,8 +2,8 @@
     <TitlePage text="Index" />
     <Card>
         <ul class="bg-red-500 mt-20">
-            <li>item 1</li>
-            <li>item 2</li>
+            <li><Icon name="logos:nuxt-icon" /> item 1</li>
+            <li><Icon name="logos:vue" /> item 2</li>
         </ul>
     </Card>
 </template>
